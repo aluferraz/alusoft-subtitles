@@ -1,0 +1,47 @@
+{
+  "name": "alusoft-subtitles",
+  "version": "0.0.1",
+  "description": "Gerar legendas com IA ",
+  "productName": "AluSoft Subtitles",
+  "author": "Alu Ferraz lucas@alusoft.com.br",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@ffmpeg/core": "^0.10.0",
+    "@ffmpeg/ffmpeg": "^0.10.1",
+    "@google-cloud/speech": "^4.10.2",
+    "@google-cloud/storage": "^6.2.3",
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.34",
+    "quasar": "^2.6.0",
+    "subtitle": "^4.2.1",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app-webpack": "^3.0.0",
+    "electron": "^19.0.9",
+    "electron-packager": "^15.2.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

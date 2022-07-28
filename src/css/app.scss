@@ -1,0 +1,11 @@
+// app global css in SCSS form
+.draggable-toolbar {
+    -webkit-app-region: drag;
+  }
+button {
+    -webkit-app-region: no-drag;
+}  
+.titlebar {
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+  }
